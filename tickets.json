@@ -1,0 +1,587 @@
+[
+  {
+    "external_id": "1",
+    "title": "404 error when on a specific page",
+    "description": "Hi there, I tried to access my sales data in my account today but it showed a 404 error. Can you please help me fix this?",
+    "status": "Open",
+    "type": "",
+    "priority": "High",
+    "created_time": "2025-12-03 16:29:08",
+    "reporter": {
+      "name": "Emily Garcia",
+      "email": "emily.garcia@acme.com"
+    }
+  },
+  {
+    "external_id": "2",
+    "title": "Authentication failure",
+    "description": "Hello, We're receiving authentication failure errors while attempting to use your APIs. Can someone please help?",
+    "status": "Open",
+    "type": "",
+    "priority": "Medium",
+    "created_time": "2025-12-03 16:29:08",
+    "reporter": {
+      "name": "Emily Garcia",
+      "email": "emily.garcia@acme.com"
+    }
+  },
+  {
+    "external_id": "3",
+    "title": "Issues with reports",
+    "description": "Hello there, Our Report metrics over the last week is at zero and can't be correct? Are you facing any issues?",
+    "status": "Open",
+    "type": "",
+    "priority": "High",
+    "created_time": "2025-12-03 16:29:10",
+    "reporter": {
+      "name": "Bob Tree",
+      "email": "bob.tree@freshdesk.com"
+    }
+  },
+  {
+    "external_id": "5",
+    "title": "Push notification not delivered to Android users",
+    "description": "We triggered a push campaign yesterday at 9 PM. More than 50% of Android users did not receive the notification. Delivery logs show failure reasons. Please help investigate as it impacts conversions.",
+    "status": "Open",
+    "type": "Push Notifications",
+    "priority": "Low",
+    "created_time": "2025-12-04 11:14:18",
+    "reporter": {
+      "name": "Rahul Sharma",
+      "email": "rahul.sharma@example.com"
+    }
+  },
+  {
+    "external_id": "6",
+    "title": "Push campaign delay of 20 minutes",
+    "description": "A push campaign scheduled at 6 PM was delivered at 6:20 PM. This delay is causing engagement loss. Kindly check queuing delays.",
+    "status": "Open",
+    "type": "Push Notifications",
+    "priority": "High",
+    "created_time": "2025-12-04 11:38:04",
+    "reporter": {
+      "name": "Priya Singh",
+      "email": "priya.singh@example.com"
+    }
+  },
+  {
+    "external_id": "7",
+    "title": "iOS users receiving duplicate push notifications",
+    "description": "Several iOS users reported receiving the same push notification twice. Happening mostly on iOS 14 devices. This impacts user trust. Please verify the sending logic.",
+    "status": "Open",
+    "type": "Push Notifications",
+    "priority": "Medium",
+    "created_time": "2025-12-04 11:41:11",
+    "reporter": {
+      "name": "Kevin John",
+      "email": "kevin@example.com"
+    }
+  },
+  {
+    "external_id": "8",
+    "title": "Push template not rendering dynamic content",
+    "description": "Dynamic variables like {{user.first_name}} are not rendering in the push message. The notification shows raw placeholders instead of values.",
+    "status": "Open",
+    "type": "Push Notifications",
+    "priority": "Low",
+    "created_time": "2025-12-04 11:46:45",
+    "reporter": {
+      "name": "Sneha Varma",
+      "email": "sneha@example.com"
+    }
+  },
+  {
+    "external_id": "9",
+    "title": "Push campaign stuck in “Processing”",
+    "description": "Campaign scheduled at 3 PM is not progressing beyond “Processing.” No users have received the notification yet.",
+    "status": "Open",
+    "type": "Push Notifications",
+    "priority": "Low",
+    "created_time": "2025-12-04 11:48:20",
+    "reporter": {
+      "name": "Ajay Kumar",
+      "email": "ajay@example.com"
+    }
+  },
+  {
+    "external_id": "10",
+    "title": "Segmented push went to wrong users",
+    "description": "A push intended for “New Users” was mistakenly sent to “Active Users.” Need root cause analysis.",
+    "status": "Waiting on Third Party",
+    "type": "Push Notifications",
+    "priority": "Medium",
+    "created_time": "2025-12-04 11:54:56",
+    "reporter": {
+      "name": "Riya Patel",
+      "email": "riya.patel@example.com"
+    }
+  },
+  {
+    "external_id": "11",
+    "title": "Push notification sound not playing",
+    "description": "The custom sound configured in the push payload is not playing on Android devices.",
+    "status": "Open",
+    "type": "Push Notifications",
+    "priority": "Medium",
+    "created_time": "2025-12-04 11:55:55",
+    "reporter": {
+      "name": "Ankit Malhotra",
+      "email": "ankit@example.com"
+    }
+  },
+  {
+    "external_id": "12",
+    "title": "Opt-in rate dropped suddenly",
+    "description": "Push opt-in rate dropped from 62% to 41% overnight. No configuration changes from our side.",
+    "status": "Open",
+    "type": "Push Notifications",
+    "priority": "High",
+    "created_time": "2025-12-04 11:56:51",
+    "reporter": {
+      "name": "Deepika Rao",
+      "email": "deepika@example.com"
+    }
+  },
+  {
+    "external_id": "13",
+    "title": "Email campaign showing 0% open rate",
+    "description": "Our email campaign sent to 18,000 users is showing 0% opens. Tracking seems broken.",
+    "status": "Open",
+    "type": "Email Campaign",
+    "priority": "Medium",
+    "created_time": "2025-12-04 11:57:42",
+    "reporter": {
+      "name": "Manish Gupta",
+      "email": "manish.g@example.com"
+    }
+  },
+  {
+    "external_id": "14",
+    "title": "Email images not loading",
+    "description": "Banner images in email templates are not loading in Gmail inbox.",
+    "status": "Open",
+    "type": "Email Campaign",
+    "priority": "High",
+    "created_time": "2025-12-04 11:58:28",
+    "reporter": {
+      "name": "Nalini Roy",
+      "email": "nalini.roy@example.com"
+    }
+  },
+  {
+    "external_id": "15",
+    "title": "Bounce rate increased",
+    "description": "Bounce rate increased to 30% from 5% in last week. Affecting deliverability.",
+    "status": "Pending",
+    "type": "Email Campaign",
+    "priority": "Low",
+    "created_time": "2025-12-04 11:59:55",
+    "reporter": {
+      "name": "Amit Tiwari",
+      "email": "amit.t@example.com"
+    }
+  },
+  {
+    "external_id": "16",
+    "title": "HTML email broken in Outlook",
+    "description": "Custom HTML template layout breaks in Outlook desktop app.",
+    "status": "Open",
+    "type": "Email Campaign",
+    "priority": "High",
+    "created_time": "2025-12-04 12:01:30",
+    "reporter": {
+      "name": "Kavya Nair",
+      "email": "kavya@example.com"
+    }
+  },
+  {
+    "external_id": "17",
+    "title": "Scheduled email sent immediately",
+    "description": "Email scheduled for 10 AM was sent instantly after creation.",
+    "status": "Waiting on Third Party",
+    "type": "Email Campaign",
+    "priority": "Low",
+    "created_time": "2025-12-04 12:02:24",
+    "reporter": {
+      "name": "Varun Jain",
+      "email": "varun@example.com"
+    }
+  },
+  {
+    "external_id": "18",
+    "title": "Incorrect UTM values",
+    "description": "Links in email have incorrect UTM parameters affecting analytics reporting.",
+    "status": "Open",
+    "type": "Email Campaign",
+    "priority": "Medium",
+    "created_time": "2025-12-04 12:03:07",
+    "reporter": {
+      "name": "Farhan Ali",
+      "email": "farhan@example.com"
+    }
+  },
+  {
+    "external_id": "19",
+    "title": "Unsubscribe link broken",
+    "description": "Clicking unsubscribe leads to a 404 error page.",
+    "status": "Open",
+    "type": "Email Campaign",
+    "priority": "Low",
+    "created_time": "2025-12-04 12:06:25",
+    "reporter": {
+      "name": "Sanjana Rao",
+      "email": "sanjana@example.com"
+    }
+  },
+  {
+    "external_id": "20",
+    "title": "Segment not updating",
+    "description": "CSV imported yesterday but segment count still unchanged.",
+    "status": "Pending",
+    "type": "Segmentation",
+    "priority": "Medium",
+    "created_time": "2025-12-04 12:12:00",
+    "reporter": {
+      "name": "Mohit Verma",
+      "email": "mohit@example.com"
+    }
+  },
+  {
+    "external_id": "21",
+    "title": "Real-time segment showing 0 users",
+    "description": "Real-time segment with simple conditions shows 0 users incorrectly.",
+    "status": "Waiting on Third Party",
+    "type": "Segmentation",
+    "priority": "Low",
+    "created_time": "2025-12-04 12:14:22",
+    "reporter": {
+      "name": "Ishita Kapoor",
+      "email": "ishita@example.com"
+    }
+  },
+  {
+    "external_id": "22",
+    "title": "Condition “Last Seen < 7 days” not working",
+    "description": "Users who logged in within the last week are not included in the segment.",
+    "status": "Open",
+    "type": "Segmentation",
+    "priority": "High",
+    "created_time": "2025-12-04 12:15:14",
+    "reporter": {
+      "name": "Sunil Mehta",
+      "email": "sunil@example.com"
+    }
+  },
+  {
+    "external_id": "23",
+    "title": "Segment filter not saving",
+    "description": "When saving a segment, filters disappear automatically.",
+    "status": "Open",
+    "type": "Segmentation",
+    "priority": "Medium",
+    "created_time": "2025-12-04 12:16:01",
+    "reporter": {
+      "name": "Jeena Francis",
+      "email": "jeena@example.com"
+    }
+  },
+  {
+    "external_id": "24",
+    "title": "Duplicate users in segment",
+    "description": "Some users appear twice inside the segment list.",
+    "status": "Open",
+    "type": "Segmentation",
+    "priority": "High",
+    "created_time": "2025-12-04 12:16:48",
+    "reporter": {
+      "name": "Aditya Shah",
+      "email": "aditya@example.com"
+    }
+  },
+  {
+    "external_id": "25",
+    "title": "Predictive segment accuracy drop",
+    "description": "Predictive model accuracy fell from 83% to 55% without changes.",
+    "status": "Open",
+    "type": "Segmentation",
+    "priority": "High",
+    "created_time": "2025-12-04 12:17:43",
+    "reporter": {
+      "name": "Harsh Singh",
+      "email": "harsh@example.com"
+    }
+  },
+  {
+    "external_id": "26",
+    "title": "Dashboard taking too long to load",
+    "description": "Analytics dashboard now takes ~45 seconds to load.",
+    "status": "Pending",
+    "type": "Analytics",
+    "priority": "Medium",
+    "created_time": "2025-12-04 12:18:25",
+    "reporter": {
+      "name": "Anusha Reddy",
+      "email": "anusha@example.com"
+    }
+  },
+  {
+    "external_id": "27",
+    "title": "Conversion funnel not updating",
+    "description": "Funnel metrics have not updated in two days.",
+    "status": "Open",
+    "type": "Analytics",
+    "priority": "Low",
+    "created_time": "2025-12-04 12:19:16",
+    "reporter": {
+      "name": "Rohit Bansal",
+      "email": "rohit@example.com"
+    }
+  },
+  {
+    "external_id": "28",
+    "title": "Negative values in revenue report",
+    "description": "Revenue analytics showing negative values for several hours.",
+    "status": "Waiting on Third Party",
+    "type": "Analytics",
+    "priority": "Medium",
+    "created_time": "2025-12-04 12:20:02",
+    "reporter": {
+      "name": "Minal Chatterjee",
+      "email": "minal@example.com"
+    }
+  },
+  {
+    "external_id": "29",
+    "title": "Missing dates in user chart",
+    "description": "Daily active user chart missing data for 2 days.",
+    "status": "Open",
+    "type": "Analytics",
+    "priority": "Medium",
+    "created_time": "2025-12-04 12:20:50",
+    "reporter": {
+      "name": "Vivek Rao",
+      "email": "vivek@example.com"
+    }
+  },
+  {
+    "external_id": "30",
+    "title": "Event tracking outage",
+    "description": "No events recorded between 2 AM–5 AM.",
+    "status": "Open",
+    "type": "Analytics",
+    "priority": "Low",
+    "created_time": "2025-12-04 12:54:18",
+    "reporter": {
+      "name": "Pooja Sinha",
+      "email": "pooja@example.com"
+    }
+  },
+  {
+    "external_id": "31",
+    "title": "API returning 500 error",
+    "description": "Server-to-server API calls failing with HTTP 500 since morning.",
+    "status": "Open",
+    "type": "API / Integrations",
+    "priority": "Low",
+    "created_time": "2025-12-04 12:55:08",
+    "reporter": {
+      "name": "Jatin Arora",
+      "email": "jatin@example.com"
+    }
+  },
+  {
+    "external_id": "32",
+    "title": "Webhook delivery failed",
+    "description": "Webhook failed for 200 user events.",
+    "status": "Open",
+    "type": "API / Integrations",
+    "priority": "Medium",
+    "created_time": "2025-12-04 12:55:57",
+    "reporter": {
+      "name": "Suresh Kumar",
+      "email": "suresh@example.com"
+    }
+  },
+  {
+    "external_id": "33",
+    "title": "SDK events missing",
+    "description": "Mobile SDK events not showing in analytics dashboard.",
+    "status": "Pending",
+    "type": "API / Integrations",
+    "priority": "High",
+    "created_time": "2025-12-04 12:56:43",
+    "reporter": {
+      "name": "Lavanya Menon",
+      "email": "lavanya@example.com"
+    }
+  },
+  {
+    "external_id": "34",
+    "title": "API rate limit exceeded",
+    "description": "Rate limit exceeded even though usage is low.",
+    "status": "Open",
+    "type": "API / Integrations",
+    "priority": "High",
+    "created_time": "2025-12-04 12:57:22",
+    "reporter": {
+      "name": "Akhil Rao",
+      "email": "akhil@example.com"
+    }
+  },
+  {
+    "external_id": "35",
+    "title": "OAuth token expiring fast",
+    "description": "OAuth token expiring after 20 min instead of the usual 60 min.",
+    "status": "Open",
+    "type": "API / Integrations",
+    "priority": "Medium",
+    "created_time": "2025-12-04 12:57:56",
+    "reporter": {
+      "name": "Roshan Patel",
+      "email": "roshan@example.com"
+    }
+  },
+  {
+    "external_id": "36",
+    "title": "API latency increased",
+    "description": "Response time increased from 200 ms to 900 ms.",
+    "status": "Open",
+    "type": "API / Integrations",
+    "priority": "High",
+    "created_time": "2025-12-04 12:58:29",
+    "reporter": {
+      "name": "Swapna Reddy",
+      "email": "swapna@example.com"
+    }
+  },
+  {
+    "external_id": "37",
+    "title": "Webhook sending old data",
+    "description": "Webhook delivered previous event instead of the latest one.",
+    "status": "Open",
+    "type": "API / Integrations",
+    "priority": "Medium",
+    "created_time": "2025-12-04 12:59:11",
+    "reporter": {
+      "name": "Arvind Chauhan",
+      "email": "arvind@example.com"
+    }
+  },
+  {
+    "external_id": "38",
+    "title": "Journey step stuck in loop",
+    "description": "Users stuck in Step 3 of onboarding loop.",
+    "status": "Open",
+    "type": "Customer Journey / Automation",
+    "priority": "Low",
+    "created_time": "2025-12-04 12:59:53",
+    "reporter": {
+      "name": "Charan Raj",
+      "email": "charan@example.com"
+    }
+  },
+  {
+    "external_id": "39",
+    "title": "Condition-based journey not triggering",
+    "description": "Users completing “Add to Cart” are not moving to next step.",
+    "status": "Pending",
+    "type": "Customer Journey / Automation",
+    "priority": "Low",
+    "created_time": "2025-12-04 13:00:37",
+    "reporter": {
+      "name": "Meera Joseph",
+      "email": "meera@example.com"
+    }
+  },
+  {
+    "external_id": "40",
+    "title": "Journey email not sent",
+    "description": "Automated journey email not sent to new users.",
+    "status": "Open",
+    "type": "Customer Journey / Automation",
+    "priority": "Medium",
+    "created_time": "2025-12-04 13:01:23",
+    "reporter": {
+      "name": "Danish Khan",
+      "email": "danish@example.com"
+    }
+  },
+  {
+    "external_id": "41",
+    "title": "A/B test not running correctly",
+    "description": "Both A and B paths are receiving equal traffic despite new configuration.",
+    "status": "Open",
+    "type": "Customer Journey / Automation",
+    "priority": "High",
+    "created_time": "2025-12-04 13:02:04",
+    "reporter": {
+      "name": "Tanya Fernandes",
+      "email": "tanya@example.com"
+    }
+  },
+  {
+    "external_id": "42",
+    "title": "Journey trigger delayed",
+    "description": "Trigger fires 10 minutes late.",
+    "status": "Open",
+    "type": "Customer Journey / Automation",
+    "priority": "Low",
+    "created_time": "2025-12-04 13:02:47",
+    "reporter": {
+      "name": "Alok Jain",
+      "email": "alok@example.com"
+    }
+  },
+  {
+    "external_id": "43",
+    "title": "Journey metrics not updating",
+    "description": "Journey completion rate remains 0%.",
+    "status": "Open",
+    "type": "Customer Journey / Automation",
+    "priority": "Low",
+    "created_time": "2025-12-04 13:03:32",
+    "reporter": {
+      "name": "Gayatri Devi",
+      "email": "gayatri@example.com"
+    }
+  },
+  {
+    "external_id": "44",
+    "title": "Users exiting journey early",
+    "description": "Users drop off after Step 1 instead of progressing.",
+    "status": "Open",
+    "type": "Customer Journey / Automation",
+    "priority": "Medium",
+    "created_time": "2025-12-04 13:04:08",
+    "reporter": {
+      "name": "Hrithik Rao",
+      "email": "hrithik@example.com"
+    }
+  },
+  {
+    "external_id": "45",
+    "title": "push notifications",
+    "description": "facing the notification issue",
+    "status": "Open",
+    "type": "Push Notifications",
+    "priority": "Medium",
+    "created_time": "2025-12-04 16:37:12",
+    "reporter": {
+      "name": "kartik",
+      "email": "kartik@gmail.com"
+    }
+  },
+  {
+    "external_id": "46",
+    "title": "facing the notification issue",
+    "description": "facing the notication problem",
+    "status": "Open",
+    "type": "Push Notifications",
+    "priority": "Low",
+    "created_time": "2025-12-04 16:43:24",
+    "reporter": {
+      "name": "uma",
+      "email": "uma@gmail.com"
+    }
+  }
+]
